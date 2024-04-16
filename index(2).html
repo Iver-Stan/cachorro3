@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprobante de Existencia para Registro con Dispositivo Externo</title>
+    <link rel="stylesheet" href="styles(2).css">
+</head>
+<body>
+    <div class="conteto">
+    <div class="gral">
+        <div class="header">
+            
+            <h2 class="header-title">FORMULARIO DE TRANSFERENCIA / ANIMAL DE COMPAÑÍA</h2>
+            
+            
+        </div>
+
+        <form action="#" method="POST">
+            <div class="section">
+                <h3>DATOS DEL ANIMAL</h3>
+                <div class="form-group">
+                    <label for="nombre_animal">Nombre:</label>
+                    <input type="text" id="nombre_animal" name="nombre_animal" required placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <label for="especie">Especie:</label>
+                    <input type="radio" id="perro" name="especie" value="perro" required>
+                    <label for="perro">Perro</label>
+                    <input type="radio" id="gato" name="especie" value="gato">
+                    <label for="gato">Gato</label>
+                </div>
+                <div class="form-group">
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" id="macho" name="sexo" value="macho" required>
+                    <label for="macho">Macho</label>
+                    <input type="radio" id="hembra" name="sexo" value="hembra">
+                    <label for="hembra">Hembra</label>
+                </div>
+                <div class="form-group">
+                    <label for="raza">Raza:</label>
+                    <input type="text" id="raza" name="raza" placeholder="Raza">
+                </div>
+                <div class="form-group">
+                    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                </div>
+                <div class="form-group">
+                    <label for="color">Color:</label>
+                    <input type="text" id="color" name="color" placeholder="Color">
+                </div>
+                <div class="form-group">
+                    <label for="modo_obtencion">Modo de Obtención:</label>
+                    <input type="radio" id="recogido" name="modo_obtencion" value="recogido" required>
+                    <label for="recogido">Recogido</label>
+                    <input type="radio" id="Reubicación" name="modo_obtencion" value="recogido" required>
+                    <label for="Reubicación">Reubicación</label>
+                    <input type="radio" id="regalo" name="modo_obtencion" value="recogido" required>
+                    <label for="regalo">Regalo</label>
+                    <input type="radio" id="nacido" name="modo_obtencion" value="recogido" required>
+                    <label for="nacido">Nacido en casa</label>
+                    <input type="radio" id="compra" name="modo_obtencion" value="recogido" required>
+                    <label for="compra">Compra</label>
+                    <input type="radio" id="recogido" name="modo_obtencion" value="recogido" required>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="nombre_animal">Otros antecedentes:</label>
+                    <input type="text" id="nombre_animal" name="nombre_animal" required placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <label for="razon_tenencia">Razón Tenencia:</label>
+                    <input type="radio" id="compania" name="razon_tenencia" value="compania" required>
+                    <label for="compania">Compañía</label>
+                    <input type="radio" id="asistencia" name="razon_tenencia" value="compania" required>
+                    <label for="asistencia">Asistencia</label>
+                    <input type="radio" id="terapia" name="razon_tenencia" value="compania" required>
+                    <label for="terapia">Terapia</label>
+                    <input type="radio" id="trabajo" name="razon_tenencia" value="compania" required>
+                    <label for="trabajo">Trabajo</label>
+                    <input type="radio" id="seguridad" name="razon_tenencia" value="compania" required>
+                    <label for="seguridad">Seguridad</label>
+                    <input type="radio" id="deporte" name="razon_tenencia" value="compania" required>
+                    <label for="deporte">Deporte</label>
+                    <input type="radio" id="exposicion" name="razon_tenencia" value="compania" required>
+                    <label for="exposicion">Exposición</label>
+                    <input type="radio" id="reproduccion" name="razon_tenencia" value="compania" required>
+                    <label for="reproduccion">Reproducción</label>
+                    <input type="radio" id="caza" name="razon_tenencia" value="compania" required>
+                    <label for="caza">Caza</label>
+                    <input type="radio" id="compania" name="razon_tenencia" value="compania" required>
+                    
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>DATOS DE QUIEN TRANSFIERE</h3>
+
+                <div class="form-groupN">
+                    <label for="nombres_veterinario" >Persona:</label>
+        
+                    <label for="persona1"  class="label-nuevo"  >Natural</label>
+                    <input type="checkbox" id="persona1">
+                    <label for="persona1" class="label-nuevo">Persona Jurídica</label>
+                    <input type="checkbox" id="persona1">
+                </div>
+            
+                <div class="form-group">
+                    <label for="nombres_veterinario">Nombres completo:</label>
+                    <input type="text" id="nombres_veterinario" name="nombres_veterinario" required placeholder="Nombres">
+                </div>
+    
+                <div class="form-group">
+                    <label for="rut_veterinario">RUT:</label>
+                    <input type="text" id="rut_veterinario" name="rut_veterinario" required placeholder="RUT">
+                </div>
+ 
+                <div class="form-group">
+                    <label for="domicilio">Domicilio:</label>
+                    <input type="text" id="domicilio" name="rut_veterinario" required placeholder="Domicilio">
+                </div>
+
+                <div class="form-group">
+                    <label for="region">Región::</label>
+                    <input type="text" id="region" name="region" required placeholder="Región">
+                </div>
+
+                <div class="form-group">
+                    <label for="comuna">Comuna:</label>
+                    <input type="text" id="comuna" name="comuna" required placeholder="Comuna">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Telfono fijo: </label>
+                    <input type="number" id="telefono" name="comuna" >
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Telfono móvil: </label>
+                    <input type="number" id="telefono" name="comuna" >
+                </div>
+                <div class="form-group">
+                    <label for="email">email: </label>
+                    <input type="email" id="email" name="comuna" >
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo_medico">Título:</label>
+                    <input type="radio" id="veterinario" name="tipo_medico" value="veterinario" required>
+                    <label for="veterinario">Oneoroso</label>
+                    <input type="radio" id="tecnico" name="tipo_medico" value="tecnico" required>
+                    <label for="tecnico">Gratuito</label>
+                </div>
+
+                <div class="section">
+                    <h3>DATOS DE QUIEN ADQUIERE EL ANIMAL</h3>
+    
+                    <div class="form-groupN">
+                        <label for="nombres_veterinario" >Persona:</label>
+            
+                        <label for="persona1"  class="label-nuevo"  >Natural</label>
+                        <input type="checkbox" id="persona1">
+                        <label for="persona1" class="label-nuevo">Persona Jurídica</label>
+                        <input type="checkbox" id="persona1">
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="nombres_veterinario">Nombres completo:</label>
+                        <input type="text" id="nombres_veterinario" name="nombres_veterinario" required placeholder="Nombres">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="rut_veterinario">RUT:</label>
+                        <input type="text" id="rut_veterinario" name="rut_veterinario" required placeholder="RUT">
+                    </div>
+     
+                    <div class="form-group">
+                        <label for="domicilio">Domicilio:</label>
+                        <input type="text" id="domicilio" name="rut_veterinario" required placeholder="Domicilio">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="region">Región::</label>
+                        <input type="text" id="region" name="region" required placeholder="Región">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="comuna">Comuna:</label>
+                        <input type="text" id="comuna" name="comuna" required placeholder="Comuna">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="telefono">Telfono fijo: </label>
+                        <input type="number" id="telefono" name="comuna" >
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Telfono móvil: </label>
+                        <input type="number" id="telefono" name="comuna" >
+                    </div>
+                    <div class="form-group">
+                        <label for="email">email: </label>
+                        <input type="email" id="email" name="comuna" >
+                    </div>
+    
+
+
+                
+            </div>
+
+            <h3>Área de Firma y Timbre</h3>
+                <div class="form-group">
+                    <label for="firma_timbre">Huella y firma de quien transfiere:</label>
+                    <canvas id="firma_timbre" >Huella y firma de quien adquiere:</canvas>
+                </div>
+                <div class="form-group">
+                    <label for="firma_timbre">Huella y firma de quien adquiere</label>
+                    <canvas id="firma_timbre" ></canvas>
+                </div>
+               
+    
+
+            <div class="form-group">
+                <label for="fecha_procedimiento">Fecha de Procedimiento:</label>
+                <input type="date" id="fecha_procedimiento" name="fecha_procedimiento" required>
+            </div>
+            <div class="form-group">
+                <label for="Comuna de proscedencia:">Comuna de proscedencia::</label>
+                <input type="date" id="Comuna de proscedencia:" name="Comuna de proscedencia:" required>
+            </div>
+
+            <div class="section button-area">
+                <button type="submit">Enviar</button>
+            </div>
+
+            
+                
+                <div class="section">
+
+            </div>
+            </div>
+       
+
+        </form>
+    </div>
+    </div>
+</body>
+</html>

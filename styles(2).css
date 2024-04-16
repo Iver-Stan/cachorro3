@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.conteto{
+    background-color: #c7c1ff;
+    padding: 25px;
+
+}
+.gral{
+    max-width: 60%;
+    max-height: 70%;
+    margin: auto;
+    border: rgb(167, 14, 60) 5px solid;
+    background-color: #f9f9f9ef;
+    
+}
+
+.header{
+    background-color: #fc948a;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px rgb(255, 79, 117) solid;
+    padding: 20px 30px;
+   
+}
+.header-title{
+    margin: auto;
+    background-color: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+/*TODO LO DEL HEADER*/
+
+form{
+    padding: 25px;
+    
+}
+h3{
+    padding: auto;
+    background-color: #f2f7ff;
+    border: 1PX SOLID #fc948a;
+    border-radius: 20%;
+    font-size: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3e7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h3 {
+    color: #ff6f61;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    margin: 50px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ff6f61;
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="radio"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 10px);
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.button-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #346aff;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+/* Estilos específicos para los radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffb1aa;
+    color: #fff;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #2b64ff;
+}
+#firma_timbre{
+    width:350px;
+    height: 150px
+}
+.form-groupN {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    
+}
+
+.form-groupN label {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    margin: auto;
+}
+
+.label-nuevo {
+    margin-right: 10px;
+}
+
+.form-groupN input[type="checkbox"] {
+    
+    margin-right: 5%;
+}
+
+.form-groupN input[type="submit"] {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-groupN input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 1020px) {
+
+    .header-title{
+        font-size: 19px;
+    }
+    .header{
+        padding: 15px;
+    }
+    .header-img{
+        height: 60px;
+        width: 110px;
+
+    }
+    .header-img2{
+        height: 70px;
+        width: 70px;
+
+
+    }
+    form{
+        padding: 25px;
+    }
+    
+    }
+    .gral{
+        max-width: 80%;
+    }
+
+@media (max-width: 800px) {
+
+    .header-title{
+        font-size: 17px;
+    }
+    .header{
+        padding: 10px;
+    }
+    .header-img{
+        height: 40px;
+        width: 80px;
+
+    }
+    .header-img2{
+        height: 50px;
+        width: 50px;
+
+
+    }
+    #firma_timbre{
+        width:250px;
+        height: 120px
+    }
+    h3 {
+        color: #ff6f61;
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #ff6f61;
+        font-size: 0.8rem;
+        text-align: start;
+    }
+    form{
+        padding: 15px;
+    }
+    .gral{
+        max-width: 75%;
+    }
+ 
+    }
+
+    @media (max-width: 600px){
+        .gral{
+            max-width: 95%;
+        }
+        
+    }
+    @media (max-width: 470px){
+        .gral{
+            max-width: 98%;
+        }
+        button{
+            font-size: 0.6rem;
+        }
+        label{
+            font-size: 0.6rem;
+        }
+        .header-title{
+            font-size: 12px;
+
+        }
+        .header-img{
+            height: 30px;
+            width: 50px;
+    
+        }
+        .header-img2{
+            height: 40px;
+            width: 40px;
+    
+    
+        }
+        #firma_timbre{
+            width:150px;
+            height: 90px
+        }
+        h3{
+            font-size: o,8rem;
+        }
+        .conteto{
+            padding: 5px;
+        }
+    }
+

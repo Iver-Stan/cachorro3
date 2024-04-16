@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaración de Posesión de Mascota</title>
+    <link rel="stylesheet" href="styles(3).css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Declaración de Posesión de Mascota</h2>
+            <form action="#" method="POST">
+                <div class="section">
+                    <h3>Datos del Declarante</h3>
+                    <div class="form-group">
+                        <label for="nombre_declarante">Nombre:</label>
+                        <input type="text" id="nombre_declarante" name="nombre_declarante" required placeholder="Nombre Completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="ci">Cédula de Identidad:</label>
+                        <input type="text" id="ci" name="ci" required placeholder="Cédula de Identidad">
+                    </div>
+                    <div class="form-group">
+                        <label for="domicilio">Domicilio:</label>
+                        <input type="text" id="domicilio" name="domicilio" required placeholder="Domicilio">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="text" id="telefono" name="telefono" required placeholder="Teléfono">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" required placeholder="Correo Electrónico">
+                    </div>
+                    <div class="form-group">
+                        <label for="profesion">Profesión u Oficio:</label>
+                        <input type="text" id="profesion" name="profesion" required placeholder="Profesión u Oficio">
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Datos de la Mascota</h3>
+                    <div class="form-group">
+                        <label for="nombre_mascota">Nombre de la Mascota:</label>
+                        <input type="text" id="nombre_mascota" name="nombre_mascota" required placeholder="Nombre de la Mascota">
+                    </div>
+                    <div class="form-group">
+                        <label for="sexo">Sexo:</label>
+                        <select id="sexo" name="sexo" required>
+                            <option value="">Seleccionar</option>
+                            <option value="macho">Macho</option>
+                            <option value="hembra">Hembra</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="especie">Especie:</label>
+                        <input type="text" id="especie" name="especie" required placeholder="Especie">
+                    </div>
+                    <div class="form-group">
+                        <label for="raza">Raza:</label>
+                        <input type="text" id="raza" name="raza" placeholder="Raza">
+                    </div>
+                    <div class="form-group">
+                        <label for="color">Color:</label>
+                        <input type="text" id="color" name="color" placeholder="Color">
+                    </div>
+                    <label for="esterilizado" class="lobo">Esterilizado:</label><br>
+                    <div class="radio-group">
+                        
+                        <input type="radio" id="si" name="esterilizado" value="si" required>
+                        <label for="si">Sí</label>
+                        <input type="radio" id="no" name="esterilizado" value="no">
+                        <label for="no">No</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                    </div>
+                    <label for="razon_tenencia">Razón de Tenencia:</label>
+                    <div class="checkbox-group">
+                        
+                        <input type="checkbox" id="caza" name="razon_tenencia" value="caza">
+                        <label for="caza">Caza</label>
+                        <input type="checkbox" id="reproduccion" name="razon_tenencia" value="reproduccion">
+                        <label for="reproduccion">Reproducción</label>
+                        <input type="checkbox" id="compania" name="razon_tenencia" value="compania">
+                        <label for="compania">Compañía</label>
+                        <input type="checkbox" id="seguridad" name="razon_tenencia" value="seguridad">
+                        <label for="seguridad">Seguridad</label>
+                        <input type="checkbox" id="deporte" name="razon_tenencia" value="deporte">
+                        <label for="deporte">Deporte</label>
+                        <input type="checkbox" id="terapia" name="razon_tenencia" value="terapia">
+                        <label for="terapia">Terapia</label>
+                        <input type="checkbox" id="exposicion" name="razon_tenencia" value="exposicion">
+                        <label for="exposicion">Exposición</label>
+                        <input type="checkbox" id="asistencia" name="razon_tenencia" value="asistencia">
+                        <label for="asistencia">Asistencia</label>
+                        <input type="checkbox" id="trabajo" name="razon_tenencia" value="trabajo">
+                        <label for="trabajo">Trabajo</label>
+                    </div>
+                </div>
+                <h3>Área de Firma y Timbre</h3>
+                <div class="firma-group">
+                    
+                    <canvas id="firma_timbre" >Huella y firma de quien adquiere:</canvas>
+                    <label for="firma_timbre">Firma del que declara</label>
+                </div>
+                <div class="section button-area">
+                    <button type="submit">Enviar Declaración</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
